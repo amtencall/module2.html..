@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+  margin-top: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.row {
+  width: 100%;
+}
+
+/* The desktop view */
+@media (min-width: 992px) {
+
+  .col-lg-4 {
+      width: 33.33%;
+      float: left;
+  }
+}
+
+/* The table view */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .col-md-6 {
+      width: 50%;
+      float: left;
+  }
+
+  .col-md-12 {
+      width: 100%;
+      float: left;
+  }
+}
+
+/* The mobile view */
+@media (max-width: 767px) {
+
+  .col-sm-12 {
+      width: 100%;
+      float: left;
+  }
+}
+
+.box {
+  border: 1px solid black;
+  position: relative;
+  background-color: gray;
+  margin: 5px;
+}
+
+span {
+  text-align: center;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  border: 1px solid black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#t1 {
+  background-color:yellow;
+  color: black;
+}
+
+#t2 {
+  background-color: red;
+  color: white;
+}
+
+#t3 {
+  background-color:violet;
+  color: black;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 5px 0;
+  font-size: 20px;
+  position: relative;
+  margin-top: 21px;
+  margin-bottom: 5px;
+}
